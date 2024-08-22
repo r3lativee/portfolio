@@ -38,13 +38,13 @@ nav,
 
 nav {
     justify-content: space-around;
-    align-items: center;
+    agn-items: center;
     height: 15vh;
 }
 
-.nav-links {
+.nav-nks {
     gap: 2rem;
-    list-style: none;
+    st-style: none;
     font-size: 1.5rem;
 }
 
@@ -56,8 +56,8 @@ a {
 
 a:hover {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-decoration: underne;
+    text-underne-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -78,7 +78,7 @@ a:hover {
 
 .hamburger-menu {
     position: relative;
-    display: inline-block;
+    display: inne-block;
 }
 
 .hamburger-icon {
@@ -97,7 +97,7 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
-.menu-links {
+.menu-nks {
     position: absolute;
     top: 100%;
     right: 0;
@@ -108,21 +108,21 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
-.menu-links a {
+.menu-nks a {
     display: block;
     padding: 10px;
-    text-align: center;
+    text-agn: center;
     font-size: 1.5rem;
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
 
-.menu-links li {
-    list-style: none;
+.menu-nks  {
+    st-style: none;
 }
 
-.menu-links.open {
+.menu-nks.open {
     max-height: 300px;
 }
 
@@ -185,8 +185,8 @@ section {
 }
 
 .section__text {
-    align-self: center;
-    text-align: center;
+    agn-self: center;
+    text-agn: center;
 }
 
 .section__text p {
@@ -194,7 +194,7 @@ section {
 }
 
 .section__text__p1 {
-    text-align: center;
+    text-agn: center;
 }
 
 .section__text__p2 {
@@ -204,7 +204,7 @@ section {
 
 .title {
     font-size: 3rem;
-    text-align: center;
+    text-agn: center;
 }
 
 #socials-container {
@@ -241,7 +241,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: rgb(255, 255, 255) 0.1rem sod;
 }
 
 .btn-color-1:hover,
@@ -260,12 +260,12 @@ section {
 }
 
 .btn-color-2 {
-    color: aliceblue;
+    color: aceblue;
     background: none;
 }
 
 .btn-color-2:hover {
-    border: rgb(0, 0, 0) 0.1rem solid;
+    border: rgb(0, 0, 0) 0.1rem sod;
 }
 
 .btn-container {
@@ -316,21 +316,22 @@ section {
     color: black;
     background: white;
     border-radius: 2rem;
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: rgb(255, 255, 255) 0.1rem sod;
     border-color: rgb(255, 255, 255);
-    text-align: center;
+    text-agn: center;
 }
 
 .details-container ul {
-    list-style-type: none;
+    st-style-type: none;
     /* Remove default bullets */
     padding: 0;
     /* Remove default padding */
-    text-align: center;
-    /* Center-align the text */
+    text-agn: center;
+    /* Center-agn the text */
 }
 
-li {
+
+.details-container li{
     font-family: Arial, sans-serif;
     /* Set a clean font */
     font-size: 18px;
@@ -340,14 +341,14 @@ li {
     color: #ffffff;
     /* Set text color */
     background: #000000;
-    /* Light background for each item */
+    /* ght background for each item */
     padding: 10px;
     /* Add padding inside each item */
     border-radius: 5px;
     /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
-    display: inline-block;
+    display: inne-block;
     /* Make items inline-block */
 }
 
