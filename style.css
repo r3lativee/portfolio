@@ -38,13 +38,13 @@ nav,
 
 nav {
     justify-content: space-around;
-    agn-items: center;
+    align-items: center;
     height: 15vh;
 }
 
-.nav-nks {
+.nav-links {
     gap: 2rem;
-    st-style: none;
+    list-style: none;
     font-size: 1.5rem;
 }
 
@@ -56,8 +56,8 @@ a {
 
 a:hover {
     color: rgb(255, 255, 255);
-    text-decoration: underne;
-    text-underne-offset: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -78,7 +78,7 @@ a:hover {
 
 .hamburger-menu {
     position: relative;
-    display: inne-block;
+    display: inline-block;
 }
 
 .hamburger-icon {
@@ -97,32 +97,32 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
-.menu-nks {
+.menu-links {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
 }
 
-.menu-nks a {
+.menu-links a {
     display: block;
     padding: 10px;
-    text-agn: center;
+    text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
 
-.menu-nks  {
-    st-style: none;
+.menu-links li {
+    list-style: none;
 }
 
-.menu-nks.open {
+.menu-links.open {
     max-height: 300px;
 }
 
@@ -185,8 +185,8 @@ section {
 }
 
 .section__text {
-    agn-self: center;
-    text-agn: center;
+    align-self: center;
+    text-align: center;
 }
 
 .section__text p {
@@ -194,7 +194,7 @@ section {
 }
 
 .section__text__p1 {
-    text-agn: center;
+    text-align: center;
 }
 
 .section__text__p2 {
@@ -204,7 +204,7 @@ section {
 
 .title {
     font-size: 3rem;
-    text-agn: center;
+    text-align: center;
 }
 
 #socials-container {
@@ -241,7 +241,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(255, 255, 255) 0.1rem sod;
+    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -260,12 +260,12 @@ section {
 }
 
 .btn-color-2 {
-    color: aceblue;
+    color: aliceblue;
     background: none;
 }
 
 .btn-color-2:hover {
-    border: rgb(0, 0, 0) 0.1rem sod;
+    border: rgb(0, 0, 0) 0.1rem solid;
 }
 
 .btn-container {
@@ -316,22 +316,21 @@ section {
     color: black;
     background: white;
     border-radius: 2rem;
-    border: rgb(255, 255, 255) 0.1rem sod;
+    border: rgb(255, 255, 255) 0.1rem solid;
     border-color: rgb(255, 255, 255);
-    text-agn: center;
+    text-align: center;
 }
 
 .details-container ul {
-    st-style-type: none;
+    list-style-type: none;
     /* Remove default bullets */
     padding: 0;
     /* Remove default padding */
-    text-agn: center;
-    /* Center-agn the text */
+    text-align: center;
+    /* Center-align the text */
 }
 
-
-.details-container li{
+.details-container li {
     font-family: Arial, sans-serif;
     /* Set a clean font */
     font-size: 18px;
@@ -341,14 +340,14 @@ section {
     color: #ffffff;
     /* Set text color */
     background: #000000;
-    /* ght background for each item */
+    /* Light background for each item */
     padding: 10px;
     /* Add padding inside each item */
     border-radius: 5px;
     /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
-    display: inne-block;
+    display: inline-block;
     /* Make items inline-block */
 }
 
